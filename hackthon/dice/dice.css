@@ -1,0 +1,24 @@
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    margin: 0;
+  }
+ 
+ 
+button {
+   padding: 10px 20px;
+   font-size: 16px;
+   margin-bottom: -90px;
+}
+h1{
+   align-items: left;
+}
+canvas{
+   border: 20x solid black;
+   font-size: 60px;
+   background-color: grey;
+   height: 400px;
+   width: 400px;
+   }

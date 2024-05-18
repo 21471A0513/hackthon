@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="ex.css">
+</head>
+<body>
+    <form id="form1">
+        <div> 
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" required>
+    </div>
+    <div>
+        <label for="category">Category:</label>
+        <input type="text" id="category" required>
+    </div>
+    <div>
+        <label for="date">Date:</label>
+            <input type="date" id="date" required>
+    </div>
+    <button type="submit">Add</button>
+    </form>
+    <h3>Expenses</h3>
+    <table id="exptab">
+        <thead>
+            <tr>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="exbody"></tbody>
+    </table>
+    <script src="ex.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+form {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+form div {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+input {
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 4px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+ 
